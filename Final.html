@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    /* Add this CSS to style.css */
+.letter-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#forYouButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.letter {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    display: inline-block;
+    text-align: left;
+}
+</style>
+
+<body>
+    <img src="ZUiY.gif" alt="stars" class="star">
+    <img src="5l03.gif" alt="ballon" class="ballon">
+    <div class="container">
+        <div class="birthdayCard">
+            <div class="cardFront">
+                <div class="front-text">
+                    <h3 class="happy">HAPPY</h3>
+                    <h2 class="bday">BIRTHDAY</h2>
+                    <h3 class="toyou">to you 💗</h3>
+                </div>
+                <div class="wrap-deco">
+                    <div class="decorations"></div>
+                    <div class="decorationsTwo"></div>
+                </div>
+                <div class="wrap-decoTwo">
+                    <div class="decorations"></div>
+                    <div class="decorationsThree"></div>
+                </div>
+                <div class="plate">
+                    <div class="cake"></div>
+                    <div class="flame"></div>
+                </div>
+            </div>
+            <div class="cardInside">
+                <div class="img">
+                    <img src="./WhatsApp Image 2025-03-05 at 00.27.13.jpeg" alt="Brotherpic" class="bdyboy">
+                    <img src="6ob.gif" alt="confetti" class="confetti">
+                </div>
+                <div class="inside-text">
+                    <h3 class="happy">HAPPY</h3>
+                    <h2 class="bday">BIRTHDAY</h2>
+                    <h3 class="toyou">to you!</h3>
+                </div>
+                <div class="wishes">
+                    <p>Dear My love,</p>
+                    <p>Happy birthday!! I hope your day is filled with lots of love and laughter! May all of your
+                        birthday
+                        wishes come true.</p>
+                        <p class="name">~ Your Pranav</p>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="letter-container">
+        <button id="forYouButton">This is for you 🤭</button>
+        <div id="letter" class="letter" style="display: none;">
+            <p>Dear Madam jii </p>
+            <p> 
+
+                Today's day is very special for you as well as for me. The day we started talking, I had no idea this would be how it turned out.. I knew something was ganna happen between us but I didn't know I was ganna fall this deeply In love with you, as time progressed and I fell in love with you I knew I could give you my heart... everything about you makes me soextremely happy and comfortable. Not just your presence or you being there but your actions and personalities, the way you make me feel, the way you inspire me to keep trying and do better. I can guarantee there's no one that could treat me as amazing and love 💖
+               I never expected a girl coming close to my heart this much ,u were the first and the last girl 💗. Just remember one thing I am always beside you,bas mujhse kuch chupana mat you don't need to face any problem alone now ,I will try to solve every problem,but I can't take guarentee of myself,me bht pareshan karne wala hu aapko to ye problem to aapko ab akele hi jhelni padegi . I am always going to be with you in every situation,bas mujhse koi baat chupana mat  aur aapko irritate bhi karunga bht jyada ,ab aapko jhelna padega . Once again Happy Birthday My Love 💖
+                I love you ❤️
+                
+                </p>
+            
+            
+        </div>
+    </div>
+
+   
+
+    <script>
+        document.getElementById('forYouButton').addEventListener('click', function() {
+            var letter = document.getElementById('letter');
+            if (letter.style.display === 'none') {
+                letter.style.display = 'block';
+            } else {
+                letter.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+
+</html>
